@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 140px;
+            background-color: aliceblue;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 0px;
+        }
+
+        h1 {
+            color: #0071bd;
+            text-align: center;
+            margin: 1px;
+        }
+
+        h4 {
+            color: #0071bd;
+            text-align: center;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+
+        .forms {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-width: 20%;
+            box-shadow: 0 0 10px rgb(76, 153, 216);
+            width: 350px;
+            align-items: center;
+        }
+        .answer,select {
+            color: rgba(128, 128, 128, 0.61);
+            padding: 10px;
+            margin-left: 60px;
+            margin-right: 100px;
+            width: 60%;
+            border: rgba(119, 218, 248, 0.925);
+            outline: auto;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-color: rgb(76, 153, 216);
+        }
+        .button {
+            padding: 10px;
+            outline: none;
+            border: none;
+            background-color: #15a0f0;
+            color: white;
+            box-shadow: rgb(72, 198, 236);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            align-items: center;
+            margin-left: 60px;
+            width: 67%;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            border: 1px solid grey;
+            color: white;
+            background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+            cursor: pointer;
+        }
+        .button1 {
+            padding: 10px;
+            background-color: #20d838;
+            font-family: "Open Sans",sans-serif;
+            color: white;
+            border: none;
+            outline: none;
+            box-shadow: rgb(44, 201, 13);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            align-items: center;
+            margin-left: 98px;
+            width: 45%;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <div class="forms">
+        <form>
+            <h1><b>Facebook</b></h1><br />
+            <input class="answer" required placeholder="Email address or phone number" required type="text"><br /><br />
+            <input class="answer" placeholder="Password" required type="password"><br /><br />
+            <button class="button"><b>Login</b></button>
+            <h4><b>Forgotten password?</b></h4><br />
+            <button class="button1"><b>Create new account</b></button>
+        </form>
+    </div>
+</body>
+
+</html>
